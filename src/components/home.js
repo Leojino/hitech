@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-import Header from './Header'
-import '../css/Home.css'
+import Header from './Header';
+// import '../css/Home.css'
 import tileData from './tileData';
 
 class Home extends Component {
