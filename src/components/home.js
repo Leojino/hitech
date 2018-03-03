@@ -12,12 +12,11 @@ class Home extends Component {
 
         <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
         <div className="carousel-inner">
-          <div className="carousel-item active" key={21}>
-            <img className="d-block w-100" src="../images/1.jpeg" alt="First slide"/>
-          </div>
-          <div className="carousel-item" key={23}>
-            <img className="d-block w-100" src="../images/3.jpeg" alt="Third slide"/>
-          </div>
+          {[1,2,3,4,5].map( value => 
+            <div className={"carousel-item "+ (value===1?" active":"false") }  key={value}>
+              <img className="d-block w-100" src={"../images/"+ value +".jpeg"} alt="First slide"/>
+            </div>
+          )}
         </div>
       </div>
 
