@@ -2,3 +2,11 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.card{
+    background-color: #8BC34A;
+    color: #F1F8E9;
+}
+
+.card h5{
+    color:#212121;
+}

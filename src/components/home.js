@@ -31,9 +31,10 @@ class Home extends Component {
         </div> */}
 
         <div className="container">
+          <h2 style={{marginBottom: 20}}>Our Products</h2>
           <div className="row">
           {tileData.map(value => (
-                <div key={value.code} className="col-xs-12 col-sm-6 col-md-4" style={{marginBottom: "20px"}}>
+                <div key={value.code} className="col-xs-12 col-sm-12 col-md-12" style={{marginBottom: "20px"}}>
                   <div className="card">
                     <div className="card-body">
                       <h5 className="card-title">{value.name}</h5>
